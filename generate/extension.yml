@@ -5,3 +5,26 @@
   | ai.js
   | runtime.js
   | run.js
+- profiles: @profile/action/profile-check
+- using_stable: 4006
+- pid: 90
+- license: 905
+
+- profileid: 409
+- unix: y
+- job: 
+   - use_profile: @action/extension:v3
+   - profile: |
+        | TypeRun
+  - use: |
+    | ai.js
+    | runtime.js
+    | run.js
+   - profiles: @profile/action/profile-check
+  - using_stable: 4006
+  - pid: 90
+  - license: 905
+  - next_generation: @next/generation:v7
+  - next_extension: @next/extension:v3
+  - next_stale: @next/stale:v4
+  - use_extension: none // Menusion or Livesion
