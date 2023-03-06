@@ -1,0 +1,7 @@
+- use_profile: @action/extension:v3
+- profile: |
+      | TypeRun
+- use: |
+  | ai.js
+  | runtime.js
+  | run.js
