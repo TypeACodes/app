@@ -1,0 +1,25 @@
+{
+  "generate": 3000,
+  "package": [
+    "@action/extension",
+    "@next/extension",
+    "@next/generation",
+    "@action/checkout/extension",
+    "@menusion/cells"
+  ],
+  "run_with": [
+    "Menusion",
+    "Livesion"
+  ],
+  "checkout": [{
+    "note": "All item payment for Menusion/Livesion not for saved on Menusion/Livesion Payment only save on Website Official Payment ",
+    "payment":[
+      "Menusion Website Payment",
+      "Livesion Website Payment"   
+    ],
+    "payWith": 4000,
+    "balance": "$",
+    "payLoader": false
+  }],
+  "$loadLicenese": 70
+}
